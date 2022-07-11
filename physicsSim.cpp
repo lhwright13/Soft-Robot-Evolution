@@ -140,7 +140,7 @@ void PhysicsSim::upDateVertices() {
 	}
 }
 //update the rest lengths stuff and we should be right as rain.
-void PhysicsSim::physicsLoop(int steps) { //around 150 steps per frame ***********************gravity is working, the springs are not
+void PhysicsSim::physicsLoop(int steps) { //around 150 steps per frame 
 	
 	//number of time steps we are going to take:
 	for (int i = 0; i < steps; i++){
